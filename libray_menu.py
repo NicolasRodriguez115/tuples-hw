@@ -1,24 +1,24 @@
-from new_itinerary import add_itinerary
-from itineraries_list import view_itineraries
-from main import itineraries
+from new_book import new_book
+from view_books import view_books
+from main import libraries
 import os
-def itineraries_menu():
+def library_menu():
    while True:
     os.system("cls")
     user_input = input("""
                        
-1. Add a new itinerary
-2. View list of itineraries
+1. Log a new book in
+2. View list of books
 3. quit
     
 """)
     
     if user_input == "1":
         os.system("cls")
-        add_itinerary()
+        new_book()
     elif user_input == "2":
         os.system("cls")
-        view_itineraries()
+        view_books()
     elif user_input == "3":
        break
     else:
