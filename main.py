@@ -1,4 +1,4 @@
-itineraries = ()
+itineraries = []
 def main():
     from itineraries_menu import main_menu
     # 1. Tuple Mastery in Python

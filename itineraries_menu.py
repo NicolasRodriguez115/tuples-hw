@@ -1,5 +1,6 @@
-from new_itinerary import add_itineraries
+from new_itinerary import add_itinerary
 from itineraries_list import view_itineraries
+from main import itineraries
 import os
 def main_menu():
    while True:
@@ -11,9 +12,10 @@ def main_menu():
 3. quit
     
 """)
+    
     if user_input == "1":
         os.system("cls")
-        add_itineraries()
+        add_itinerary()
     elif user_input == "2":
         os.system("cls")
         view_itineraries()
