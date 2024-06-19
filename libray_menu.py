@@ -1,6 +1,5 @@
 from new_book import new_book
 from view_books import view_books
-from main import libraries
 import os
 def library_menu():
    while True:

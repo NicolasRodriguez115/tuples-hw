@@ -8,6 +8,7 @@ def main():
 
     # 2. Python Data Structure Challenges in Real-World Scenarios
     # Task 1: Library System Enhancement
-    
+    from libray_menu import library_menu
+    library_menu()
 if __name__ == "__main__":
     main()
